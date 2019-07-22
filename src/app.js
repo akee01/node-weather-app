@@ -7,7 +7,7 @@ const geocode = require("./geocode")
 
 // Initializing App
 const app = express()
-const port = process.env.port || 3000;
+const port = process.env.PORT || 3000;
 
 // Setting Paths for Express Config
 const publicDeirectotyPath = path.join(__dirname,"../public");
